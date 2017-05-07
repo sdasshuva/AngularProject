@@ -1,0 +1,15 @@
+body {
+    margin-top: 15px;
+}
+
+.div1 {
+    border: 0px 1px 1px 1px #cecece;
+}
+
+.modal-footer {
+    /*position: absolute;*/
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+

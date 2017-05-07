@@ -1,0 +1,14 @@
+<div class="container" ng-controller="SecondCtrl">
+    <h2> Array Sorted By Name </h2>
+    <h4>The passed data will be showed below if typed in home route</h4>
+    <h5>{{data.message}}</h5>
+    <i>Search:</i>
+    <br/>
+    <input type="text" ng-model="name" class="form-control"/>
+    <br/>
+    <ul>
+        <li ng-repeat="name in array | orderBy:'name' | filter:name">{{name.name}} , {{name.id}}</li>
+    </ul>
+
+    <a href="#/home"> Back</a>
+</div>
